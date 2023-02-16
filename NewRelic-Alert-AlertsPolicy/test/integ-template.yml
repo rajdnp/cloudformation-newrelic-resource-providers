@@ -1,0 +1,8 @@
+Resources:
+  MySampleProject:
+    Type: NewRelic::Alert::AlertsPolicy
+    Properties:
+      AccountId: 3649062
+      AlertsPolicy:
+        Name: My CF Created Policy
+        IncidentPreference:  PER_POLICY
