@@ -11,6 +11,7 @@ phases:
       - export PATH="/usr/local/bin:$PATH"
       - /usr/local/bin/dockerd-entrypoint.sh
       - cat /var/log/docker.log
+      - echo java version
       - java -version
       - pwd
       - ls
