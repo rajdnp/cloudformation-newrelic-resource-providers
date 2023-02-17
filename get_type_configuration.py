@@ -1,5 +1,3 @@
-"Get the Okta secret from secrets manager and write it to ~/.cfn-cli/typeConfiguration.json"
-
 import boto3
 import base64
 import os
@@ -10,7 +8,7 @@ def get_secret():
     "Get the secret from secrets manager"
 
     secret_name = "newrelic-type-configuration"
-    region_name = "us-east-1"
+    region_name = os.environ['AWS_REGION']
     session = boto3.session.Session()
     client = session.client(
         service_name="secretsmanager",
