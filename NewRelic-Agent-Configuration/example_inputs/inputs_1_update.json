@@ -1,0 +1,12 @@
+{
+  "Guid": "MzY0OTA2MnxBUE18QVBQTElDQVRJT058NTY0NDczNDk2",
+  "AgentConfiguration": {
+    "Settings": {
+      "Alias": "Updated Alias",
+      "ApmConfig": {
+        "ApdexTarget": 4,
+        "UseServerSideConfig": true
+      }
+    }
+  }
+}

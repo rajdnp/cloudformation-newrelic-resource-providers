@@ -1,6 +1,6 @@
 {
   "CREATE": {
-    "/Guid": "<NR_AGENT_GUID>",
+    "/Guid": "MzY0OTA2MnxBUE18QVBQTElDQVRJT058NTY0NDczNDk2",
     "/AgentConfiguration": {
       "Settings": {
         "Alias": "Test Alias",
@@ -12,7 +12,7 @@
     }
   },
   "UPDATE": {
-    "/Guid": "<NR_AGENT_GUID>",
+    "/Guid": "MzY0OTA2MnxBUE18QVBQTElDQVRJT058NTY0NDczNDk2",
     "/AgentConfiguration": {
       "Settings": {
         "Alias": "Updated Alias",
