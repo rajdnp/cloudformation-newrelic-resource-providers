@@ -1,5 +1,5 @@
 {
-    "AccountId": 3649062,
+    "AccountId": ACCOUNT_ID,
     "AlertsPolicy": {
         "IncidentPreference": "PER_POLICY",
         "Name": "Sam Alert Policy"
