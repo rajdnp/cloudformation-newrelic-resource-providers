@@ -2,7 +2,7 @@ Resources:
   AgentConfigurationSample:
     Type: NewRelic::Agent::Configuration
     Properties:
-      Guid: MzY0OTA2MnxBUE18QVBQTElDQVRJT058NTY0NDczNDk2
+      Guid: NEWRELIC_GUID
       AgentConfiguration:
         Settings:
           Alias: "My Test Alias"
